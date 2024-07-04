@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Netflix Clone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <form id="weatherForm">
-            <input type="text" id="locationInput" placeholder="Enter city">
-            <button type="submit">Get Weather</button>
-        </form>
-        <div id="weatherInfo">
-            <!-- Weather information will be displayed here -->
+    <header>
+        <!-- Navbar or header content -->
+        <div class="container">
+            <h1>Netflix</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <!-- Add more navigation items as needed -->
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <script src="script.js"></script>
+    <main>
+        <!-- Main content area (featured content, categories, etc.) -->
+        <section class="hero">
+            <div class="container">
+                <h2>Watch Unlimited Movies & TV Shows</h2>
+                <p>Join now and watch anywhere. Cancel anytime.</p>
+                <button>Join Now</button>
+            </div>
+        </section>
+
+        <section class="movies">
+            <div class="container">
+                <h2>Popular Movies</h2>
+                <div class="movie-list">
+                    <!-- Placeholder for movie posters or thumbnails -->
+                    <!-- Example: -->
+                    <!-- <div class="movie">
+                         <img src="movie1.jpg" alt="Movie 1">
+                     </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <div class="container">
+            <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
